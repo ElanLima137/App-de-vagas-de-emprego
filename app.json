@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "AccessJobs",
+    "slug": "AccessJobs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/image/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/image/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+      
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+       "permissions": ["NSCameraUsageDescription", "NSPhotoLibraryUsageDescription", "NSPhotoLibraryAddUsageDescription"]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/image/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "permissions":[ 
+        "READ_EXTERNAL_STORAGE",
+       "WRITE_EXTERNAL_STORAGE"]
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/image/favicon.png"
+    }
+  }
+}
+
+
